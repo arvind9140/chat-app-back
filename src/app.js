@@ -41,7 +41,7 @@ app.set("io", io); // using set method to mount the `io` instance on the app to 
 // global middlewares
 app.use(
   cors({
-   origin: 'https://master.d3smd26n11qqrp.amplifyapp.com',
+   origin: 'https://master.d3sak4bv4mgy9p.amplifyapp.com/',
     credentials: true,
       methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   })
