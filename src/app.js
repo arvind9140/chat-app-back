@@ -30,7 +30,7 @@ const httpServer = createServer(app);
 const io = new Server(httpServer, {
   pingTimeout: 60000,
   cors: {
-    origin: process.env.CORS_ORIGIN,
+    origin:'https://master.d1iuo6abnc6erf.amplifyapp.com/',
     credentials: true,
      methods: ['GET', 'POST'],
   },
@@ -41,7 +41,7 @@ app.set("io", io); // using set method to mount the `io` instance on the app to 
 // global middlewares
 app.use(
   cors({
-   origin: 'https://master.d3sak4bv4mgy9p.amplifyapp.com/',
+   origin: 'https://master.d1iuo6abnc6erf.amplifyapp.com/',
     credentials: true,
       methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   })
