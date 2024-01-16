@@ -41,11 +41,11 @@ app.set("io", io); // using set method to mount the `io` instance on the app to 
 // global middlewares
 app.use(
   cors(
-  //   {
-  //  origin: 'https://master.d1iuo6abnc6erf.amplifyapp.com/',
-  //   credentials: true,
-  //     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-  // }
+    {
+   origin: 'https://master.d1iuo6abnc6erf.amplifyapp.com/',
+    credentials: true,
+      methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  }
   )
 );
 
