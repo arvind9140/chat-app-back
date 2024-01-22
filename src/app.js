@@ -30,7 +30,7 @@ const httpServer = createServer(app);
 const io = new Server(httpServer, {
   pingTimeout: 60000,
   cors: {
-    origin:'https://master.d1iuo6abnc6erf.amplifyapp.com',
+    origin:'https://main.dkada6vw7g925.amplifyapp.com',
     credentials: true,
      methods: ['GET', 'POST'],
   },
